@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
 class Constants {
-  static String appName = "Restaurant App UI KIT";
+  static String appName = "My Fav Restaurant";
 
-  //Colors for theme
-//  Color(0xfffcfcff);
+
   static Color lightPrimary = Color(0xfffcfcff);
-  static Color darkPrimary = Colors.black;
-  static Color lightAccent = Colors.red;
-  static Color darkAccent = Colors.red[400];
+  static Color darkPrimary = Colors.purple;
+  static Color lightAccent = Colors.yellow;
+  static Color darkAccent = Colors.yellow[400];
   static Color lightBG = Color(0xfffcfcff);
-  static Color darkBG = Colors.black;
+  static Color darkBG = Colors.purple;
   static Color ratingBG = Colors.yellow[600];
 
   static ThemeData lightTheme = ThemeData(
@@ -22,8 +21,8 @@ class Constants {
       titleTextStyle: TextStyle(
         //title: TextStyle(
         color: darkBG,
-        fontSize: 18.0,
-        fontWeight: FontWeight.w800,
+        fontSize: 14.0,
+        fontWeight: FontWeight.w600,
       ),
     ),
     iconTheme: IconThemeData(
@@ -41,13 +40,10 @@ class Constants {
       textTheme: TextTheme(
         subtitle1: TextStyle(
           color: lightBG,
-          fontSize: 18.0,
-          fontWeight: FontWeight.w800,
+          fontSize: 14.0,
+          fontWeight: FontWeight.w600,
         ),
       ),
-//      iconTheme: IconThemeData(
-//        color: darkAccent,
-//      ),
     ),
   );
 }

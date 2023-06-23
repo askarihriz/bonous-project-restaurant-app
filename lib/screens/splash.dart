@@ -13,7 +13,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
 
   startTimeout() {
-    return  Timer(Duration(seconds: 2), changeScreen);
+    return  Timer(Duration(seconds: 3), changeScreen);
   }
 
   changeScreen() async{
@@ -61,7 +61,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Text(
                   "${Constants.appName}",
                   style: TextStyle(
-                    fontSize: 25.0,
+                    fontSize: 20.0,
                     fontWeight: FontWeight.w700,
                     color: Theme.of(context).accentColor,
                   ),
